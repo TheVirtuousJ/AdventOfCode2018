@@ -1,12 +1,16 @@
-﻿using System;
-
-namespace AdventOfCode2018
+﻿namespace AdventOfCode2018
 {
-    class Program
+	using System;
+
+	public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+	        Console.Out.WriteLine("Day 1: " + Day1.Day1.Solve());
+	        Console.Out.WriteLine("Day 1b: " + Day1.Day1b.Solve());
+
+			Console.WriteLine("Press any key...");
+			Console.ReadLine();
         }
     }
 }

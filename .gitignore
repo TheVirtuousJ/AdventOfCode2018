@@ -1,0 +1,69 @@
+Skip to content
+ 
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ @TheVirtuousJ Sign out
+ The password you provided has been reported as compromised due to re-use of that password on another service by you or someone else. GitHub has not been compromised directly. To increase your security, please change your password as soon as possible.
+
+Read our documentation on safer password practices. See our blog for more details.
+
+1,332
+9,201 1,913 dotnet/core
+ Code  Issues 22  Pull requests 3  Projects 0  Insights
+core/.gitignore
+6dd1c9e  on May 15
+@richlander richlander Add .NET Core RC1 version of dotnetsay (#1565)
+@richlander @geek @Petermarcu @terrajobst
+     
+35 lines (30 sloc)  326 Bytes
+*.swp
+*.*~
+project.lock.json
+.DS_Store
+*.pyc
+nupkg/
+
+# Visual Studio Code
+.vscode
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+msbuild.log
+msbuild.err
+msbuild.wrn
+
+# Visual Studio 2015
+.vs/
+© 2018 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Press h to open a hovercard with more details.
